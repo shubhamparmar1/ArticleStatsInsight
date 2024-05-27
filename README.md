@@ -10,19 +10,13 @@ The URLs of the articles are provided in the `Input.xlsx` file. For each URL, th
 
 ### Extraction Process
 - Only the article title and text are extracted.
-- Headers, footers, and other non-article content are excluded.
 
 ## Data Analysis
-For each extracted text, perform textual analysis to compute the following variables as specified in the `Output Data Structure.xlsx` file.
+For each extracted text, perform textual analysis to compute the variables as specified in the `Output Data Structure.xlsx` file.
 
-## Running the Project
-To run the project, follow these steps:
-
-1. Install dependencies:
+ Dependencies:
    ```sh
     BeautifulSoup
-    Selenium
-    Scrapy
     NLTK
     Pandas
-    OpenPyXL
+    Requests
